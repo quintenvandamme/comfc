@@ -1,4 +1,4 @@
-comfc
+utopia
 =====
 
-The comfy compositor.
+A fork of the comfy compositor.

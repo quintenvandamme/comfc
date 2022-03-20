@@ -1,7 +1,7 @@
 project(
-  'comfc',
+  'utopia',
   'c',
-  version: '0.0.0',
+  version: '3.0.0',
   license: 'MIT',
   meson_version: '>=0.43.0',
   default_options: [
@@ -35,4 +35,4 @@ pixman = dependency('pixman-1')
 xkbcommon = dependency('xkbcommon')
 
 subdir('protocol')
-subdir('comfc')
+subdir('utopia')

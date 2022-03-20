@@ -1,8 +1,8 @@
-comfc_src = files(
+utopia_src = files(
 	'comf.c',
 )
 
-comfc_deps = [
+utopia_deps = [
 	wayland_server,
 	wlroots,
 	pixman,
@@ -10,9 +10,9 @@ comfc_deps = [
 ]
 
 executable(
-	'comfc',
-	comfc_src,
+	'utopia',
+	utopia_src,
 	include_directories: [inc_folder],
-	dependencies: [comfc_deps, wlr_protos],
+	dependencies: [utopia_deps, wlr_protos],
 	install: true
 )
